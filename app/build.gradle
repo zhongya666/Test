@@ -1,7 +1,12 @@
+//apply plugin: 'com.github.dcendents.android-maven'
+//group = 'com.gitee.Github.zhongya666'
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'com.github.dcendents.android-maven'
 }
+group = 'com.gitee.Github.zhongya666'
+
 
 android {
     compileSdkVersion 30
